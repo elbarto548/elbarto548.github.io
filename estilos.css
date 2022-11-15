@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'krona One';
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+header{
+    background: url(imagenes/imagenm.jpeg);
+    height: 120vh;
+    
+}
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+header .logo-y-menu{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    color: #fff;
+}
+header .boton a, .botones a, #discografia a{
+    background: yellow;
+    color: #000;
+    padding: 5px 10px;
+    line-height: 50px;
+}
+header .titular{
+    margin-top: 50vh;
+    color: #fff;
+}
+h1{
+    font-size: 40px;
+    width: 70%;
+}
+#discografia{
+    background: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+ h4{
+    margin: 0;
+    color: yellow;
+    border: 1px solid #ccc;
+    width: 120px;
+    padding: 10px;
+    border-radius:20px; 
+}
+#discografia .contenedor{
+    display: flex;
+    align-items: center;
+}
+#discografia span{
+    color: yellow;
+    text-decoration: underline;
+}
+#discografia h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#discografia p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+#discografia .botones a{
+    background: yellow;
+    color: #000;
+    padding: 5px 10px;
+    line-height: 50px;
+}
+#discografia img{
+    width: 100%;
+}
+#dsicografia .texto 
+{
+    width: 50%;
+}
+#discografia .foto{
+    width: 100%;
+}
+.contenedor-textos{
+display: flex;
+}
+.texto-izquierda{
+    width: 60%;
+}
+#mas  h4{
+    color: #000;
+    border: 1px solid #000;
+    text-align: center;
+}
+#mas p,li, footer p{
+    font-family: 'Jost';
+}
+.negro{
+    background: #aaa !important;
+}
+#mas{
+    padding: 60px 0;
+}
+footer{
+    text-align: center;
+    padding: 60px 0;
+}
+footer svg{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 10px;
+}
