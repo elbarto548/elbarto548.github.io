@@ -131,28 +131,4 @@ footer svg{
     height: 15px !important;
     margin: 0 10px;
 }
-@media (max-width: 800px) {
-   header .menu {
 
-    flex-direction: column;
-   }
-   header .logo-y-menu {
-    justify-content: space-between;
-   }
-   nav ul {
-    flex-direction: column;
-   }
-   nav {
-    background: yellow;
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    display: none;
-   }
-   nav ul li a {
-    color: #000;
-   }
-   nav ul li {
-    margin-bottom: 20px;
-   }
-}
